@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 load_dotenv()
-GOOGLE_API_KEY = st.secrets["default"]["GOOGLE_API_KEY"]
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # Retrieve API key from environment variable
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
