@@ -123,7 +123,6 @@ def main():
     """
 
     # Set Streamlit page configuration for layout and title
-    st.set_page_config("Unfold")
     st.set_page_config(
     page_title="Unfold",
     page_icon="📄",
