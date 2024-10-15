@@ -96,7 +96,7 @@ def main():
 
     with st.sidebar:
         st.title("Welcome:")
-        pdf_docs = st.file_uploader("Upload your PDF Files (Max 2MB each)", 
+        pdf_docs = st.file_uploader("Upload your PDF Files (Max 2MB)", 
                                     accept_multiple_files=True, 
                                     help="Upload PDF files to process")
 
