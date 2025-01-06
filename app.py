@@ -21,7 +21,7 @@ if not GOOGLE_API_KEY:
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Constants
-MAX_FILE_SIZE = 2 * 1024 * 1024  # 2 MB
+MAX_FILE_SIZE = 100 * 1024 * 1024  # 2 MB
 CHUNK_SIZE = 10000
 CHUNK_OVERLAP = 1000
 
